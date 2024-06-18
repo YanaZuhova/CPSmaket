@@ -65,13 +65,16 @@
 }
 
 .title {
+    padding-top: 24px;
+    background-image: url("images/serv-icon.svg");
+    background-repeat: no-repeat;
+    background-position:0 24px;
     height: 88px;
     font-size: 28px;
     line-height: 40px;
     font-family: TTLakes-Bold;
     letter-spacing: -0.6px;
     text-align: left;
-    display: flex;
     align-items: center;
     padding: auto 0;
 }
@@ -279,7 +282,6 @@ h1 {
 
     .title {
         height: 40px;
-        /* align-items:end; */
     }
     
     h1 {
