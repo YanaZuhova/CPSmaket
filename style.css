@@ -35,6 +35,10 @@
     display: none;
 }
 
+.for-large {
+    display: none;
+}
+
 .leftnav {
     min-width: 186px;
     display: flex;
@@ -89,6 +93,7 @@ h1 {
     max-width: 246px;
     max-height: 40px;
     padding: 8px 9.3px 8px 16.5px;
+    font-family: TTLakes-Medium;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
@@ -218,5 +223,118 @@ h1 {
         min-height: 208px;
         margin-right: 24px; 
         margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .header {
+        background-color: #F8F8F8;
+        min-width: 1120px;
+    }
+    
+    .nav {
+        display: none;
+    }
+    
+    .for-large {
+        display: block;
+    }
+
+    .main {
+        min-width: 1120px;
+        background-color: #F8F8F8;
+    }
+    
+    .content {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .main__header {
+        min-height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .main__nav {
+        min-width: 432px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav__item {
+        min-width: 168px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        color: #1B1C21;
+        font-family: TTLakes-Medium;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+    }
+
+    .title {
+        height: 40px;
+        /* align-items:end; */
+    }
+    
+    h1 {
+        margin-left: 32px;
+    }
+
+    .menu {
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+    
+    .menu__item {
+        max-width: 254px;
+    }
+    
+    .menu__item:last-child {
+        margin-right: 32px;
+    }
+
+    .feedback {
+        margin-left: 32px;
+        margin-bottom: 16px;
+        max-width: 95px;
+        max-height: 40px;
+        font-family: TTLakes-Medium;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        white-space: nowrap;
+        color: #7E7E82;
+        text-decoration: none; 
+        text-align: center;
+    }
+        
+        
+    .feedback:hover {
+        border: 2px solid #B8FFEC;
+        border-radius: 6px;
+        background-color: #FFFFFF;
+        transition-delay: 0.15s;  
+    }
+
+    .description {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .block1 {
+        max-width: 80%;
+    }
+    
+    .block2 {
+        min-width: 532px;
+        min-height: 307px;
+        margin-right: 29px; 
+        margin-bottom: 49px;
     }
 }
