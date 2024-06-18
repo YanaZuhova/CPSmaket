@@ -1,0 +1,165 @@
+@font-face {
+    font-family: TTLakes-Bold;
+    src: url("/fonts/TTLakes/TTLakes-Bold.woff");
+}
+
+@font-face {
+    font-family: TTLakes-Light;
+    src: url("/fonts/TTLakes/TTLakes-Light.woff");
+}
+
+@font-face {
+    font-family: TTLakes-Medium;
+    src: url("/fonts/TTLakes/TTLakes-Medium.woff");
+}
+
+.header {
+    background-color: #FFFFFF;
+    min-width: 336px;
+}
+
+.nav {
+    margin-left: auto;
+    margin-top: 18.59px;
+    margin-right: auto;
+    margin-bottom: 18.59px;
+    min-width: 336px;
+    max-width: 767px;
+    max-height: 88px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.for-middle {
+    display: none;
+}
+
+.leftnav {
+    min-width: 186px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightnav {
+    margin-right: 16px;
+    min-width: 134px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    min-width: 336px;
+    background-color: #F8F8F8;
+}
+
+.content {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.title {
+    height: 88px;
+    font-size: 28px;
+    line-height: 40px;
+    font-family: TTLakes-Bold;
+    letter-spacing: -0.6px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: auto 0;
+}
+
+h1 {
+    margin-left: 16px;
+}
+
+.menu {
+    max-width: 100%;
+    display: flex;
+    margin-bottom: 24px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.menu__item {
+    max-width: 246px;
+    max-height: 40px;
+    padding: 8px 9.3px 8px 16.5px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    white-space: nowrap;
+    color: #7E7E82;
+    text-decoration: none;
+}
+
+.menu__item:last-child {
+    margin-right: 16px;
+}
+
+.menu__item:hover {
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    transition-delay: 0.15s;
+}
+
+.description__text {
+    max-width: 100%;
+    margin-bottom: 16px;
+    font-family: TTLakes-Light;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+}
+
+.description__btn { 
+    margin-bottom: 16px;
+    border: none; 
+    outline: none; 
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    color: #1B1C21;
+    font-family: TTLakes-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+}
+
+.description__btn:hover {
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    transition-delay: 0.15s;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.block1 {
+    max-width: 100%;
+}
+
+.block2 {
+    max-width: 100%;
+    /* text-align: -webkit-center; */
+    background-image: url('images/logitype.jpg') no-repeat center center / cover;
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1119px) {
+    .for-middle {
+        display: block;
+    }
+}
