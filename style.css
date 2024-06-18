@@ -150,7 +150,6 @@ h1 {
 
 .block2 {
     max-width: 100%;
-    /* text-align: -webkit-center; */
     background-image: url('images/logitype.jpg') no-repeat center center / cover;
 }
 
@@ -159,7 +158,65 @@ h1 {
 
 
 @media (min-width: 768px) and (max-width: 1119px) {
+    .header {
+        min-width: 768px;
+    }
+    
+    .nav {
+        min-width: 768px;
+        max-width: 1119px;   
+    }
+    
     .for-middle {
         display: block;
+    }
+    
+    .leftnav {
+        min-width: 227px;
+    }
+    
+    .rightnav {
+        min-width: 330px;
+    }
+
+    .main {
+        min-width: 768px;
+    }
+    
+    .content {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    h1 {
+        margin-left: 24px;
+    }
+    
+    .menu {
+        margin-bottom: 32px;
+    }
+    
+    .menu__item {
+        max-width: 248px;
+    }
+    
+    .menu__item:last-child {
+        margin-right: 0px;
+    }
+
+    .description {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .block1 {
+        max-width: 80%;
+    }
+    
+    .block2 {
+        min-width: 360px;
+        min-height: 208px;
+        margin-right: 24px; 
+        margin-bottom: 40px;
     }
 }
