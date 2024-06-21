@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Menu</title>
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="menu.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <nav class="header__nav">
+                    <a href="#" class="nav__item nav__exit"></a>
+                    <a href="#" class="nav__logo">
+                        <img src="images/logo.svg" alt="logo" />
+                    </a>
+                    <a href="#" class="nav__item nav__search"></a>
+                </nav>
+            </header>
+            <main class="main">
+                <section class="main__options">
+                    <ul class="options">
+                        <li class="options__item">
+                            <div class="options__text">Ремонт техники</div>
+                        </li>
+                        <li class="options__item">
+                            <div class="options__text">Услуги и сервисы</div>
+                        </li>
+                        <li class="options__item">
+                            <div class="options__text">
+                                Корпоративным клиентам
+                            </div>
+                        </li>
+                        <li class="options__item">
+                            <div class="options__text">Продавцам техники</div>
+                        </li>
+                        <li class="options__item">
+                            <div class="options__text">Производителям</div>
+                        </li>
+                        <li class="options__item">
+                            <div class="options__text">Партнерам</div>
+                        </li>
+                        <li class="options__item">
+                            <div class="options__text">
+                                Наши сервисные центры
+                            </div>
+                        </li>
+                        <li class="options__item">
+                            <div class="options__text">Контакты</div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="contacts">
+                    <nav class="contacts__nav">
+                        <a href="#" class="nav__item nav__call"></a>
+                        <a href="#" class="nav__item nav__chat"></a>
+                        <a href="#" class="nav__item nav__prifile"></a>
+                    </nav>
+                    <a href="mailto:mail@cps.com"
+                        ><div class="contacts__email">mail@cps.com</div></a
+                    >
+                    <a href="tel:8 800 890 8900"
+                        ><div class="contacts__tel">8 800 890 8900</div></a
+                    >
+                </section>
+                
+                    <form class="lang" action="#">
+                        <label class="lang__radio"><input type="radio" checked name="language" value="rus"> RU</label>
+                        <label class="lang__radio"><input type="radio" name="language" value="eng"> EN</label>
+                        <label class="lang__radio"><input type="radio" name="language" value="chi"> CH</label>
+                    </form>
+                
+            </main>
+        </div>
+    </body>
+</html>
