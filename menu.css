@@ -79,12 +79,10 @@
 }
 
 .options__item:hover{
-    color: #7E7E82;
     transition-delay: 0.25s;
     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='4' height='32' viewBox='0 0 4 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 4C4 1.79086 2.20914 0 0 0V32C2.20914 32 4 30.2091 4 28V4Z' fill='%2341F6D7'/%3e%3c/svg%3e ");
     background-repeat: no-repeat;
     height: 32px;
-    padding-top: 2px;
 }
 
 .options__text {
@@ -92,6 +90,11 @@
     height: 100%;
     margin-left: 24px;
     padding-top: 8px;
+}
+
+.options__text:hover {
+    opacity: 50%;
+    transition-delay: 0.25s;
 }
 
 .contacts {
@@ -171,5 +174,7 @@
 }
 
 .lang__radio:hover {
-    color: #7E7E82;
+    /* color: #7E7E82; */
+    opacity: 50%;
+    transition-delay: 0.25s;
 }
