@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Обратная связь</title>
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="feedback.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <nav class="header__nav">
+                    <a href="index.html" class="nav__item nav__exit"></a>
+                </nav>
+            </header>
+
+            <form class="form">
+                <section class="title">
+                    <h1 class="title__text">Обратная связь</h1>
+                </section>
+                <input class="form__item" type="name" placeholder="Имя" />
+                <label class="form__label" for="name">Имя</label>
+                <input class="form__item" type="tel" placeholder="Телефон" />
+                <label class="form__label" for="tel">Телефон</label>
+                <input
+                    class="form__item"
+                    type="email"
+                    placeholder="Электронная почта"
+                />
+                <label class="form__label" for="email">Электронная почта</label>
+                <textarea
+                    class="form__item textaria"
+                    placeholder="Сообщение"
+                    name="message"
+                    rows="3"
+                ></textarea>
+                <label class="form__label textaria__label" for="message"
+                    >Сообщение</label
+                >
+                <p class="description">
+                    Нажимая “отправить”, вы даете согласие на
+                    <span class="description__important"
+                        >обработку персональных данных</span
+                    >
+                    и соглашаетесь с нашей
+                    <span class="description__important"
+                        >политикой конфиденциальности</span
+                    >
+                </p>
+                <button class="btn__send">
+                    <p>Отправить</p>
+                    <img src="images/dropdown.svg" />
+                </button>
+            </form>
+        </div>
+    </body>
+</html>

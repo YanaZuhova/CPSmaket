@@ -1,0 +1,149 @@
+@font-face {
+    font-family: TTLakes-Medium;
+    src: url("fonts/TTLakes/TTLakes-Medium.woff");
+}
+
+@font-face {
+    font-family: TTLakes-Bold;
+    src: url("fonts/TTLakes/TTLakes-Bold.woff");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 320px;
+    min-height: 1024px;
+    padding: 24px 24px 32px 0;
+    box-shadow: 
+    16px 0 52px 0  rgba(14, 24, 80, 0.2),
+    -2px 0 4px 0 rgba(69, 79, 126, 0.02);
+}
+
+.header {
+    height: 72px;
+    margin-left: 16px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__item {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #FF3E79;
+}
+
+.nav__exit {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M2.79348 1.25712C2.40295 0.866593 1.76979 0.866592 1.37927 1.25712L1.25712 1.37927C0.866592 1.76979 0.866593 2.40296 1.25712 2.79348L7.46364 9L1.25712 15.2065C0.866593 15.597 0.866592 16.2302 1.25712 16.6207L1.37927 16.7429C1.76979 17.1334 2.40295 17.1334 2.79348 16.7429L9 10.5364L15.2065 16.7429C15.597 17.1334 16.2302 17.1334 16.6207 16.7429L16.7429 16.6207C17.1334 16.2302 17.1334 15.597 16.7429 15.2065L10.5364 9L16.7429 2.79348C17.1334 2.40296 17.1334 1.76979 16.7429 1.37927L16.6207 1.25712C16.2302 0.866592 15.597 0.866593 15.2065 1.25712L9 7.46364L2.79348 1.25712Z' fill='white'/%3e%3c/svg%3e ");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title {
+    background-image: url("images/serv-icon.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 32px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: TTLakes-Bold;
+    letter-spacing: -0.6px;
+    text-align: left;
+    align-items: center;
+    padding: auto 0;
+    margin-bottom: 24px;
+}
+
+.title__text {
+    padding-left: 16px;
+}
+
+.form {
+    width: 288px;
+    position: relative;
+}
+
+.form__item {
+    width: 285px;
+    height: 48px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    border: solid 1.5px #EAEAEA;
+    border-radius: 5px;
+}
+
+.form__item::placeholder {
+    opacity: 0;
+}
+
+textarea {
+    resize: none;
+}
+.textaria {
+    height: 116px;
+    text-align: start;
+}
+
+.form__label {
+    position: relative;
+    bottom: 50px;
+    left: 36px;
+    font-family: TTLakes-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B5B6BC;
+    letter-spacing: -0.2px;
+
+}
+
+.textaria__label {
+    bottom: 120px;
+    left: 36px;
+}
+
+.form__item:focus + .form__label {
+    opacity: 0;
+}
+
+.form__item:not(:placeholder-shown) + .form__label {
+    opacity: 0;
+}
+
+.description {
+    width: 304px;
+    padding-left: 16px;
+    margin-bottom: 19px;
+    font-family: TTLakes-Medium;
+    font-size: 14px;
+    line-height: 16px;
+    color: #848589;
+}
+
+.description__important {
+    color: #FF3E79;
+}
+
+.btn__send {
+    width: 136px;
+    height: 32px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 168px;
+    border: #FF3E79;
+    border-radius: 16px;
+    background-color: #FF3E79;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: TTLakes-Bold;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+}
