@@ -4,7 +4,7 @@ const slider2 = document.querySelector('.swiper-container2');
 
 
 let mySwiper = new Swiper(slider, {
-	slidesPerView: 3,
+	slidesPerView: 1,
 	spaceBetween: 10,
 	loop: true,
 	pagination: {
@@ -18,7 +18,7 @@ let mySwiper = new Swiper(slider, {
 });
 
 let mySwiper1 = new Swiper(slider1, {
-	slidesPerView: 3,
+	slidesPerView: 1,
 	spaceBetween: 10,
 	loop: true,
 	pagination: {
@@ -32,7 +32,7 @@ let mySwiper1 = new Swiper(slider1, {
 });
 
 let mySwiper2 = new Swiper(slider2, {
-	slidesPerView: 3,
+	slidesPerView: 1,
 	spaceBetween: 10,
 	loop: true,
 	pagination: {

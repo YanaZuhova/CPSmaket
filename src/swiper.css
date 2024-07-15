@@ -1,17 +1,17 @@
-/* swiper-bullets styling */
 .swiper-pagination-bullet {
-	width: 10px;
-	height: 10px;
-	margin: 0 15px;
-	background-color: tomato;
-	opacity: 1;
+    width: 12px;
+    height: 12px;
+    background-color: #DDDDDD;
+    opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
-	background-color: navy;
+    background-color: #B5B6BC;
 }
 
 .swiper-container {
+    min-width: 330px;
+    max-width: 668px;
 	padding-bottom: 50px;
 }
 
@@ -25,6 +25,13 @@
 	padding-bottom: 50px;
 	/* overflow: hidden; */
 	width: 100%;
+}
+
+.swiper-pagination {
+    position: relative;
+    height: 44px;
+    top: 16px;
+    margin-left: -24px;
 }
 
 .pag-1 {
